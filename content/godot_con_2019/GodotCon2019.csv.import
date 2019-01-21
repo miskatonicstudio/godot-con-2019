@@ -1,0 +1,16 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+
+[deps]
+
+files=[ "res://content/godot_con_2019/GodotCon2019.en.translation" ]
+
+source_file="res://content/godot_con_2019/GodotCon2019.csv"
+dest_files=[ "res://content/godot_con_2019/GodotCon2019.en.translation" ]
+
+[params]
+
+compress=true
+delimiter=0

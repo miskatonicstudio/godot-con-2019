@@ -1,0 +1,78 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://slide/Slide.tscn" type="PackedScene" id=1]
+[ext_resource path="res://slide/widgets/Header.tscn" type="PackedScene" id=2]
+[ext_resource path="res://slide/widgets/Body.tscn" type="PackedScene" id=3]
+[ext_resource path="res://slide/layout/Row.tscn" type="PackedScene" id=4]
+[ext_resource path="res://slide/widgets/TextBox.tscn" type="PackedScene" id=5]
+[ext_resource path="res://slide/widgets/PictureSlideshow.tscn" type="PackedScene" id=6]
+[ext_resource path="res://slide/widgets/Picture.tscn" type="PackedScene" id=7]
+[ext_resource path="res://content/godot_con_2019/img/fpp_demo.png" type="Texture" id=8]
+[ext_resource path="res://content/godot_con_2019/img/intrepid_performance.png" type="Texture" id=9]
+
+[node name="Performance" instance=ExtResource( 1 )]
+
+[node name="Header" parent="." index="1" instance=ExtResource( 2 )]
+
+anchor_right = 0.0
+margin_right = 1921.0
+margin_bottom = 210.0
+title = "Performance"
+
+[node name="Body" parent="." index="2" instance=ExtResource( 3 )]
+
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 210.0
+margin_right = 1921.0
+margin_bottom = 1080.0
+
+[node name="MarginContainer" type="MarginContainer" parent="Body" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="Row" parent="Body/MarginContainer" index="0" instance=ExtResource( 4 )]
+
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 32.0
+margin_top = 32.0
+margin_right = 1889.0
+margin_bottom = 838.0
+
+[node name="TextBox" parent="Body/MarginContainer/Row" index="0" instance=ExtResource( 5 )]
+
+margin_right = 617.0
+margin_bottom = 806.0
+text = "[color=green]* better than expected[/color]
+[color=#F2971A]* 3D FPP Interaction Template[/color]
+* good enough for a simple game
+[color=blue]* Thread Model -> Multi-Threaded[/color]
+[color=#F2971A]* no clip planes[/color]"
+
+[node name="PictureSlideshow" parent="Body/MarginContainer/Row" index="1" instance=ExtResource( 6 )]
+
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 621.0
+margin_right = 1857.0
+margin_bottom = 806.0
+
+[node name="Picture" parent="Body/MarginContainer/Row/PictureSlideshow" index="2" instance=ExtResource( 7 )]
+
+texture = ExtResource( 8 )
+
+[node name="Picture2" parent="Body/MarginContainer/Row/PictureSlideshow" index="3" instance=ExtResource( 7 )]
+
+texture = ExtResource( 9 )
+
+

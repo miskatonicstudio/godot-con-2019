@@ -1,0 +1,129 @@
+id,en
+TitlePage_Header_title,"The good, the bad, and the ugly"
+TitlePage_Header_subtitle,"3D features of Godot 3D"
+Intro_Header_title,"Intro"
+Intro_Body_MarginContainer_Row_TextBox_text,"* Paweł Fertyk
+* long time coder (C++, Java, Python)
+* passion for computer games
+* 2018 [color=black]Miskatonic Studio[/color]
+* first game: [color=blue]Intrepid[/color]"
+Intrepid_Header_title,"Intrepid"
+Available3DEngines_Header_title,"Available 3D engines"
+Available3DEngines_Body_MarginContainer_Row_TextBox_text,"So many options:
+* Blender Game Engine
+* Unreal Engine
+* jMonkeyEngine
+* LibGDX
+* CryEngine
+* Cube
+* OGRE
+* ...
+* Panda3D
+* Unity
+* Godot"
+Available3DEngines2_Header_title,"Available 3D engines"
+Available3DEngines2_Body_MarginContainer_Row_TextBox_text,"[color=#dddddd]So many options:
+* Blender Game Engine
+* Unreal Engine
+* jMonkeyEngine
+* LibGDX
+* CryEngine
+* Cube
+* OGRE
+* ...[/color]
+* Panda3D
+* Unity
+* Godot"
+Available3DEngines3_Header_title,"Available 3D engines"
+Available3DEngines3_Body_MarginContainer_Row_TextBox_text,"[color=#dddddd]So many options:
+* Blender Game Engine
+* Unreal Engine
+* jMonkeyEngine
+* LibGDX
+* CryEngine
+* Cube
+* OGRE
+* ...
+* Panda3D[/color]
+* Unity
+* Godot"
+Available3DEngines4_Header_title,"Available 3D engines"
+Available3DEngines4_Body_MarginContainer_Row_TextBox_text,"[color=#dddddd]So many options:
+* Blender Game Engine
+* Unreal Engine
+* jMonkeyEngine
+* LibGDX
+* CryEngine
+* Cube
+* OGRE
+* ...
+* Panda3D
+* Unity[/color]
+* Godot"
+Godot_Header_title,"Godot's first impression"
+Godot_Body_MarginContainer_Row_Then_text,"[b]Godot then:[/b]
+
+* very small download size
+* works on everything
+* no lame licenses 
+* pong tutorial
+* tutorial didn't work
+* manual collision detection
+[color=red]* not brilliant[/color]"
+Godot_Body_MarginContainer_Row_Now_text,"[b]Godot now:[/b]
+
+* much better looking
+* 3D examples
+* interesting tutorial
+* this time it works
+* collisions out of the box
+* great progress
+[color=green]* very promising[/color]"
+BlenderImport_Header_title,"Importing from Blender"
+BlenderImport_Body_MarginContainer_Row_TextBox_text,"[color=green]* mostly OK[/color]
+* built-in exporter in Blender
+* other exporters available
+* materials created automatically
+[color=#F2971A]* no support for DDS, TIFF etc.[/color]
+[color=#F2971A]* small issue with saving materials[/color]
+[color=green]* excellent camera animation[/color]
+[color=#F2971A]* occasional scaling issue[/color]
+[color=red]* very bad with Armature modifier![/color]"
+Performance_Header_title,"Performance"
+Performance_Body_MarginContainer_Row_TextBox_text,"[color=green]* better than expected[/color]
+[color=#F2971A]* 3D FPP Interaction Template[/color]
+* good enough for a simple game
+[color=blue]* Thread Model -> Multi-Threaded[/color]
+[color=#F2971A]* no clip planes[/color]"
+Lighting_Header_title,"Lighting"
+Lighting_Body_MarginContainer_Row_TextBox_text,"* forward vs deferred
+* limited to ~5 light sources
+* use [color=blue]Area[/color] to detect unused lights
+[color=green]* shadows out of the box[/color]
+[color=#F2971A]* shadow artifacts[/color]
+[color=#F2971A]* shadow contact issues[/color]"
+Transparency_Header_title,"Transparency"
+Transparency_Body_MarginContainer_Row_TextBox_text,"* uses alpha from Albedo texture
+* only [color=#F2971A]8 bit/color PNG[/color]
+[color=red]* whole object with alpha missing[/color]
+* eventually removed outer windows
+* refraction is nice, but [color=#F2971A]unpredictable[/color]"
+Environment_Header_title,"Environment"
+Environment_Body_MarginContainer_Row_TextBox_text,"* works out of the box
+[color=#F2971A]* docs could be better[/color]
+[color=green]* sky texture[/color]
+* very nice sky emission
+[color=red]* no sky shadows[/color]
+[color=green]* beautiful glow and reflections[/color]
+* auto exposure can be tricky
+[color=green]* excellent DOF effect[/color]"
+Cursor_Header_title,"Cursor"
+Cursor_Body_MarginContainer_Row_TextBox_text,"* 4 mouse modes, very useful
+* can use a custom cursor
+[color=red]* doesn't work with capture mode![/color]
+* had to use a TextureRect"
+ThankYou_Body_Header_title,"Thank you!
+
+"
+ThankYou_Body_Header_subtitle,"https://miskatonicstudio.com/godot_con_2019
+https://github.com/miskatonicstudio/godot-con-2019"
