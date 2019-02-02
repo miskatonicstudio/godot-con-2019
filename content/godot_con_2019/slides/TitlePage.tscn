@@ -17,7 +17,7 @@ anchor_right = 0.0
 margin_right = 1921.0
 margin_bottom = 210.0
 title = "The good, the bad, and the ugly"
-subtitle = "3D features of Godot 3D"
+subtitle = "3D features of Godot"
 
 [node name="Body" parent="." index="2" instance=ExtResource( 3 )]
 

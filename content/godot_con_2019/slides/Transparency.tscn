@@ -57,6 +57,8 @@ margin_bottom = 806.0
 text = "* uses alpha from Albedo texture
 * only [color=#F2971A]8 bit/color PNG[/color]
 [color=red]* whole object with alpha missing[/color]
+* keep alpha objects to a minimum
+* eventually used 3D human models
 * eventually removed outer windows
 * refraction is nice, but [color=#F2971A]unpredictable[/color]"
 

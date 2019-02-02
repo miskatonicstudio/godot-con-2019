@@ -55,7 +55,6 @@ text = "[b]Godot then:[/b]
 * works on everything
 * no lame licenses 
 * pong tutorial
-* tutorial didn't work
 * manual collision detection
 [color=red]* not brilliant[/color]"
 
@@ -69,7 +68,6 @@ text = "[b]Godot now:[/b]
 * much better looking
 * 3D examples
 * interesting tutorial
-* this time it works
 * collisions out of the box
 * great progress
 [color=green]* very promising[/color]"

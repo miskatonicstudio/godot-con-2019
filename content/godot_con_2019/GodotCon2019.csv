@@ -1,6 +1,6 @@
 id,en
 TitlePage_Header_title,"The good, the bad, and the ugly"
-TitlePage_Header_subtitle,"3D features of Godot 3D"
+TitlePage_Header_subtitle,"3D features of Godot"
 Intro_Header_title,"Intro"
 Intro_Body_MarginContainer_Row_TextBox_text,"* Paweł Fertyk
 * long time coder (C++, Java, Python)
@@ -67,7 +67,6 @@ Godot_Body_MarginContainer_Row_Then_text,"[b]Godot then:[/b]
 * works on everything
 * no lame licenses 
 * pong tutorial
-* tutorial didn't work
 * manual collision detection
 [color=red]* not brilliant[/color]"
 Godot_Body_MarginContainer_Row_Now_text,"[b]Godot now:[/b]
@@ -75,7 +74,6 @@ Godot_Body_MarginContainer_Row_Now_text,"[b]Godot now:[/b]
 * much better looking
 * 3D examples
 * interesting tutorial
-* this time it works
 * collisions out of the box
 * great progress
 [color=green]* very promising[/color]"
@@ -106,6 +104,8 @@ Transparency_Header_title,"Transparency"
 Transparency_Body_MarginContainer_Row_TextBox_text,"* uses alpha from Albedo texture
 * only [color=#F2971A]8 bit/color PNG[/color]
 [color=red]* whole object with alpha missing[/color]
+* keep alpha objects to a minimum
+* eventually used 3D human models
 * eventually removed outer windows
 * refraction is nice, but [color=#F2971A]unpredictable[/color]"
 Environment_Header_title,"Environment"
@@ -125,5 +125,5 @@ Cursor_Body_MarginContainer_Row_TextBox_text,"* 4 mouse modes, very useful
 ThankYou_Body_Header_title,"Thank you!
 
 "
-ThankYou_Body_Header_subtitle,"https://miskatonicstudio.com/godot_con_2019
+ThankYou_Body_Header_subtitle,"https://miskatonicstudio.com/godot-con-2019
 https://github.com/miskatonicstudio/godot-con-2019"
